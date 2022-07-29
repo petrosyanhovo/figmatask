@@ -1,0 +1,14 @@
+header {
+    color: white;
+
+    display: flex;
+    font-size: 15px;
+}
+
+header .logo, header .center, header .user {
+    display: flex;
+}
+
+header .logo .cards {
+    display: flex;
+}
