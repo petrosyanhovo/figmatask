@@ -1,6 +1,11 @@
-/* .App {
-  
-} */
+.App {
+ background-color: rgba(11, 12, 29, 0.8);
+ height: 100vh;
+ /* opacity: .2; */
+ position: absolute;
+ top: 0;
+ width: 100%;
+}
 
 
 

@@ -1,12 +1,69 @@
 header {
     color: white;
-
-    display: flex;
+    box-sizing: border-box;
     font-size: 15px;
+    
+    background-color: #bebebe10;
+    height: 98px;
+    margin: 15px 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
 }
 
-header .logo, header .center, header .user {
+header .logo, header .center, header .user,header .center .smart-chain, header .balance, header .balance .wallet {
     display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+header .logo .logo-text {
+    font-size: 13px;
+    font-family: 'Nippo-Extralight';
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 14px;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+header .logo .cards {
+    color: #EA3498;
+    font-size: 40px;
+}
+
+header .smart-chain {
+    background: rgba(234, 52, 151, 0.29) content-box;
+    font-size: 13px;
+    /* padding: 6px 24px; */
+    /* padding-left: 200px; */
+    height: 30px;
+    width: 147px;
+    box-sizing: border-box;
+    /* text-align: right; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Nippo-Regular';
+
+    border-left: 3px solid rgba(234, 52, 151, 0.29);
+    padding-left: 3px;
+    border-right: 3px solid rgba(234, 52, 151, 0.29);
+    padding-right: 3px;
+    /* border-right: 10px solid black; */
+    /* border-spacing: 50px; */
+}
+
+header .smart-chain-icon {
+    color: #EA3498;
+    font-size: 19px;
+}
+
+header .center .balance {
+    padding: 0 20px;
 }
 
 header .logo .cards {

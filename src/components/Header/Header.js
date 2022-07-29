@@ -8,7 +8,7 @@ const Header = () => {
         <a className="cards">
           <div className="first-card"></div>
           <div className="second-card"></div>
-          <i class="fa-solid fa-cards-blank"></i>
+          <i class="fa-solid fa-diamond"></i>
         </a>
         <div className="logo-text">New era of<br/>crypto games</div>
       </div>

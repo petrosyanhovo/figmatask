@@ -1,6 +1,19 @@
+@import url('../src/WEB/css/nippo.css');
+
+@font-face {
+  font-family: 'Nippo-Variable';
+  src: url();
+}
+/* 
+font-family: 'Nippo-Extralight';
+font-family: 'Nippo-Light';
+font-family: 'Nippo-Regular';
+font-family: 'Nippo-Medium';
+font-family: 'Nippo-Bold'; */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   /* -webkit-font-smoothing: antialiased; */
@@ -11,9 +24,8 @@ body {
   background-size: cover;
   height: 100vh;
   margin: 0 auto;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Nippo-Variable';
+
+
 }
