@@ -13,6 +13,14 @@ header {
     padding: 30px 60px;
 }
 
+header img {
+    width: 100%;
+}
+
+header .left-lines {
+    width: 25px;
+} 
+
 header .logo, header .center, header .user,header .center .smart-chain, header .balance, header .balance .wallet {
     display: flex;
     align-items: center;
@@ -29,8 +37,7 @@ header .logo .logo-text {
 }
 
 header .logo .cards {
-    color: #EA3498;
-    font-size: 40px;
+    width: 87px;
 }
 
 header .smart-chain {
@@ -58,9 +65,13 @@ header .smart-chain {
 }
 
 header .smart-chain-icon {
-    color: #EA3498;
-    font-size: 19px;
+    width: 19px;
+    margin-top: 4px;
 }
+
+/* header .smart-chain-text {
+    line-height: ;
+} */
 
 header .center .balance {
     padding: 0 20px;
