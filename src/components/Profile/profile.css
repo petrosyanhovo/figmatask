@@ -10,7 +10,7 @@
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 15px 16px;
         border-radius: 4px;
         -webkit-border-radius: 4px;
@@ -18,5 +18,68 @@
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
         float: left;
+}
+
+.profile .profile-balance h2 {
+        color: white;
+        text-shadow: -1.5px -1px 0px #D2459E, 1px 1px 0px #00F8FF;
+        opacity: 90%;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 19px;
+        text-align: center;
+} 
+
+.profile .profile-balance .wallet {
+        display: flex;
+        align-items: center;
+}
+
+.profile .profile-balance .wallet img {
+        width: 14px;
+        height: 12px;
+        margin-right: 4px;
+}
+
+.profile .profile-balance .wallet span {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 17px;
+        color: white;
+        opacity: 60%;
+}
+
+.profile .profile-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.profile .profile-info .array {
+        width: 6px;
+        height: 13px;
+        opacity: 80%;
+}
+
+.profile .profile-info .line {
+        width: 1px;
+        height: 69px;
+        background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile .profile-info .circle {
+        width: 45px;
+        height: 45px;
+        /* opacity: 20%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 40px;
+        background-color: rgba(210, 69, 158, .2);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 }

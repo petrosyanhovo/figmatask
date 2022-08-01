@@ -15,14 +15,28 @@ const Profile = () => {
             </div>
         </div>
         <div className="profile-info">
+            <div className="arrow left-arrow">
+                <img src={require('../../svg/left-arrow.svg').default} alt="" />
+            </div>
             <div className="users">
-                <div className="users-img"></div>
-                span
+                <div className="users-img circle">
+                    <img src={require('../../svg/users-icon.svg').default} alt="" />
+                </div>
+                <span>5.5K</span>
             </div>
+            <div className="line"></div>
             <div className="loves">
-                <div className="loves-img"></div>
-
+                <div className="loves-img circle">
+                    <img src={require('../../svg/heart-icon.svg').default} alt="" />
+                </div>
+                <span>103K</span>
             </div>
+            <div className="arrow right-arrow">
+                <img src={require('../../svg/right-arrow.svg').default} alt="" />
+            </div>
+        </div>
+        <div className="profile-back">
+
         </div>
     </div>
   )
