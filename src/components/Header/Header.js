@@ -13,16 +13,22 @@ const Header = () => {
         </a>
         <div className="logo-text">New era of<br/>crypto games</div>
       </div>
+      <img className='line2' src={require('../../svg/line2.svg').default} alt="" />
       <div className="center">
         <div className="smart-chain">
+          <div className="left-line"></div>
           <div className="smart-chain-icon">
             <img src={require('../../svg/binancedex.svg').default} alt="" />
           </div>
           <div className="smart-chain-text">
             Smart Chain
           </div>
+          <div className="right-line"></div>
         </div>
         <div className="balance">
+          <div className="backlines">
+            <img src={require('../../svg/wallet-lines.svg').default} alt="" />
+          </div>
           <div className="wallet">
             <div className="wallet-icon">
               <img src={require('../../svg/wallet.svg').default} alt="" />
@@ -31,6 +37,7 @@ const Header = () => {
               5.621 BNB
             </div>
           </div>
+          <div className='wallet-line'></div>
           <div className="num">
             0xB2...31
           </div>

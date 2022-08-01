@@ -1,0 +1,22 @@
+@media (min-width: 1400px) {
+.profile {
+        color: white;
+        box-sizing: border-box;
+        background-color: rgba(190, 190, 190, 0.1);
+        border: 3px solid rgba(255, 255, 255, .05);
+        margin: 15px 40px 0 40px;
+        width: 325px;
+        height: 606px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        float: left;
+}
+}

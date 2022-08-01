@@ -1,0 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/sportypo');
+
+
+.dashboardText {
+    font-family: 'Sportypo', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: -3px -2px 0px #D2459E, 2px 2px 0px #00F8FF;
+    text-align : center;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 15px;
+}

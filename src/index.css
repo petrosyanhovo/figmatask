@@ -4,6 +4,13 @@
   font-family: 'Nippo-Variable';
   src: url();
 }
+
+button {
+  /* padding: none; */
+  /* border-width : 0; */
+  border: none;
+  cursor: pointer;
+}
 /* 
 font-family: 'Nippo-Extralight';
 font-family: 'Nippo-Light';

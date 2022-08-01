@@ -1,0 +1,100 @@
+@media (min-width: 1400px) {
+    .personal-link {
+        color: white;
+        box-sizing: border-box;
+        background-color: rgba(190, 190, 190, 0.05);
+        border: 3px solid rgba(255, 255, 255, .05);
+        margin: 15px 40px 0 40px;
+        width: 234px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        float: right;
+    }
+    
+    .personal-link .info {
+        display: flex;
+    
+    }
+    
+    .personal-link h2 {
+        font-size: 13px;
+        font-weight: 200;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 14px;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+    
+    .personal-link .info {
+        display: flex;
+        align-items: center;
+    }
+    
+    /* .personal-link .info .id { */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+    /* } */
+    
+    .personal-link .info .id .line {
+        width: 82px;
+        height: 2px;
+        background-color: #EA3498;
+        margin: 4px 0 1px 0;
+        opacity: 40%;
+    }
+    
+    .personal-link .info .id .id-link {
+        font-size: 13px;
+        opacity: 80%;
+        color: white;
+        font-weight: 400;
+    }
+    
+    
+    .personal-link .info .buttons {
+        display: flex;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    
+    .personal-link .info .buttons .btn {
+        color: #1A224B;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        background: linear-gradient(90deg, rgba(25,225,242,1) 0%, rgba(108,231,221,1) 100%);
+    }
+    
+    .personal-link .info .buttons .copyBtn {
+        width: 74px;
+        height: 25px;
+        font-size: 11px;
+        line-height: 16px;
+        font-family: 'Nippo-Variable';
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .personal-link .info .buttons .copyBtn span {
+        margin-left: 6px;
+    }
+    .personal-link .info .buttons .shareBtn  {
+        margin-left: 7px;
+        line-height: 13px;
+    }
+}
+
