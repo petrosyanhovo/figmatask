@@ -36,7 +36,29 @@ const Profile = () => {
             </div>
         </div>
         <div className="profile-back">
-
+            <div className="info">
+                <h4>Your profit:</h4>
+                <h2>56.054 BNB</h2>
+                <div className="button">
+                    <button>
+                        <img src={require('../../svg/plus.svg').default} alt="" />
+                        Show my cars
+                    </button>
+                </div>
+            </div>
+            <div className="back">
+                <img src={require('../../svg/profile-back.svg').default} alt="" />
+                <div className="back">
+                    <img src={require('../../svg/profile-back2.svg').default} alt="" />
+                </div>
+                <div className="path">
+                    <img src={require('../../svg/profile-path.svg').default} alt="" />
+                    <div className="circle">
+                        <img src={require('../../svg/profile-circle.svg').default} alt="" />
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
   )
