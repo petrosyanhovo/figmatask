@@ -4,6 +4,7 @@ import "./App.css";
 import PersonalLink from "./components/PersonalLink/PersonalLink";
 import DashboardText from "./components/DashboardText/DashboardText";
 import Profile from "./components/Profile/Profile";
+import NumberCards from "./components/NumberCards/NumberCards";
 
 const App = () => {
     return (
@@ -11,7 +12,8 @@ const App = () => {
             <Header />
             <PersonalLink />
             <DashboardText />
-            <Profile/>
+            <Profile />
+            <NumberCards />
         </div>
     );
 };

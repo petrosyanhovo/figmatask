@@ -18,6 +18,7 @@
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
         float: left;
+        margin-right: 15px;
 }
 
 .profile .profile-avatar {
@@ -169,7 +170,7 @@
         font-size: 13px;
         font-weight: 200;
         opacity: 60px;
-        color: white;
+        color: rgba(255, 255, 255, 0.6);
         letter-spacing: 2px;
 }
 
@@ -180,6 +181,8 @@
         opacity: 90px;
         color: white;
         text-shadow: -1.5px -1px 0px #D2459E, 1px 1px 0px #00F8FF;
+        margin-top: 11px;
+        margin-bottom: 20px;
 }
 
 .profile .profile-back .info .button {

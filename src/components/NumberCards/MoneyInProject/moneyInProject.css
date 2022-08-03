@@ -1,0 +1,115 @@
+@media (min-width: 1400px) {
+.moneyInProject {
+    color: white;
+        box-sizing: border-box;
+        background-color: rgba(190, 190, 190, 0.05);
+        margin: 15px 0;
+        margin-left: -20px;
+        width: 234px;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 14px 39px 18px 15px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        position: relative;
+
+}
+
+.moneyInProject h4 {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+.moneyInProject .info {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.moneyInProject .backimg {
+    position: absolute;
+    bottom: 0;
+    /* right: -18px; */
+    /* top: 0; */
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 3px;
+    /* height: 3px; */
+    width: 234px;
+}
+
+.moneyInProject .backimg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.moneyInProject .info .left .line {
+    height: 2px;
+    width: 102px;
+    background-color: rgba(234, 52, 152, .4);
+    margin: 5px 0;
+    /* margin-bottom: 7px; */
+    position: relative;
+}
+/* 
+.moneyInProject .info .left .line img {
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.moneyInProject .info .left .price {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow: -1.5px -1px 0px #D2459E, 1px 1px 0px #00F8FF;
+    opacity: 80%;
+    /* margin-top: 7px; */
+    margin-right: 12px;
+}
+
+.moneyInProject .info .right span {
+    display: inline-block;
+    background-color: rgba(81, 200, 28, 1);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    width: 59px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: -10px;
+}
+
+.moneyInProject .info .dollar {
+    width: 23px;
+    height: 43px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.moneyInProject .info .dollar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+}
